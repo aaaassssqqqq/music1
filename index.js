@@ -1370,4 +1370,4 @@ try {
     Object.defineProperty(Array.prototype, 'musicArraySort', {value: function(n) {
       return Array.from(Array(Math.ceil(this.length/n)), (_,i)=>this.slice(i*n,i*n+n));
     }});
-
+client.login(process.env.BOT_TOKEN);
